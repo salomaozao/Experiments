@@ -1,0 +1,19 @@
+@import "../commom.scss";
+
+body {
+	height: 100vh;
+}
+
+div.ad {
+	width: 40vw;
+	height: 7.5vw;
+
+	border: 2px solid black;
+
+	flex-direction: row;
+
+	img {
+		width: 25%;
+		height: 100%;
+	}
+}

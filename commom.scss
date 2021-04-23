@@ -1,0 +1,17 @@
+body {
+	margin: 0;
+	color: rgb(46, 46, 46);
+}
+
+div,
+form,
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.underline {
+	text-decoration: underline;
+}

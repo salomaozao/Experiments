@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  color: #2e2e2e;
+}
+
+div,
+form,
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+body {
+  height: 100vh;
+}
+
+div.ad {
+  width: 40vw;
+  height: 7.5vw;
+  border: 2px solid black;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+div.ad img {
+  width: 25%;
+  height: 100%;
+}
