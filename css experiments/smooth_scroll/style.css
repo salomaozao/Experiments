@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+body > div {
+  height: 100vh;
+  overflow-y: scroll;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+}
+
+body > div > div {
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+body > div > div:nth-child(1) {
+  background: #326464;
+}
+
+body > div > div:nth-child(2) {
+  background: #643264;
+}
+
+body > div > div:nth-child(3) {
+  background: #646432;
+}

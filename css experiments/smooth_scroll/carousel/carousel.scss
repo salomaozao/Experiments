@@ -1,0 +1,20 @@
+.carousel {
+	min-height: 5rem;
+	width: 500px;
+	border: 1px solid;
+
+	display: inline-flex;
+
+	flex-direction: row;
+	overflow: scroll;
+	scroll-snap-type: x proximity;
+	scroll-padding: 0 2rem;
+	> div {
+		flex: none;
+		width: 150px;
+		height: 5rem;
+		margin: 1rem;
+		background: rgb(80, 80, 80);
+		scroll-snap-align: start;
+	}
+}

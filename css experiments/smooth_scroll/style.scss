@@ -1,0 +1,24 @@
+body {
+	margin: 0;
+	> div {
+		height: 100vh;
+		overflow-y: scroll;
+		scroll-snap-type: y mandatory;
+		> div {
+			height: 100vh;
+			scroll-snap-align: start;
+
+			&:nth-child(1) {
+				background: rgb(50, 100, 100);
+			}
+
+			&:nth-child(2) {
+				background: rgb(100, 50, 100);
+			}
+
+			&:nth-child(3) {
+				background: rgb(100, 100, 50);
+			}
+		}
+	}
+}

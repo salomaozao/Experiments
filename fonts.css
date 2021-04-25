@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Nunito-xLight;
+  src: url(../media/fonts/Nunito/Nunito-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: Nunito-Light;
+  src: url(../media/fonts/Nunito/Nunito-Light.ttf);
+}
+
+@font-face {
+  font-family: Nunito;
+  src: url(../media/fonts/Nunito/Nunito-Regular.ttf);
+}
+
+@font-face {
+  font-family: Antonio;
+  src: url(../media/fonts/Antonio/Antonio-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../media/fonts/Montserrat/Montserrat-Medium.ttf);
+}
